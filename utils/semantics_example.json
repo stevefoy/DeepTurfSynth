@@ -1,0 +1,316 @@
+[
+    {
+        "materialIndexID": 0,
+        "ObjectGroup": "sky",
+        "objectStrList": [
+            "Sky"
+        ],
+        "NodeSockerColorRGBA": [
+            0.006135,
+            0.0,
+            0.8,
+            1
+        ],
+        "cyclesDefaultMaskColorRGB": [
+            4708,
+            1,
+            50712
+        ]
+    },
+    {
+        "materialIndexID": 1,
+        "ObjectGroup": "ground",
+        "objectStrList": [
+            "Dirt",
+            "Clay"
+        ],
+        "NodeSockerColorRGBA": [
+            0.235294118,
+            0.156862745,
+            0.870588235,
+            1
+        ],
+        "cyclesDefaultMaskColorRGB": [
+            36202,
+            31017,
+            51564
+        ]
+    },
+    {
+        "materialIndexID": 2,
+        "ObjectGroup": "object",
+        "objectStrList": [
+            "Sign",
+            "Pole",
+            "Golfball",
+            "Golfclub"
+        ],
+        "NodeSockerColorRGBA": [
+            1,
+            0.270588235,
+            0,
+            1
+        ],
+        "cyclesDefaultMaskColorRGB": [
+            52902,
+            37985,
+            1
+        ]
+    },
+    {
+        "materialIndexID": 3,
+        "ObjectGroup": "flat",
+        "objectStrList": [
+            "Grass",
+            "grass"
+        ],
+        "NodeSockerColorRGBA": [
+            0.50196078,
+            0,
+            0,
+            1
+        ],
+        "cyclesDefaultMaskColorRGB": [
+            45589,
+            1,
+            1
+        ]
+    },
+    {
+        "materialIndexID": 4,
+        "ObjectGroup": "Construction",
+        "objectStrList": [
+            "Stone",
+            "Concrete",
+            "Rock"
+        ],
+        "NodeSockerColorRGBA": [
+            0.752941176,
+            0.752941176,
+            0.501960784,
+            1
+        ],
+        "cyclesDefaultMaskColorRGB": [
+            50086,
+            50086,
+            45589
+        ]
+    },
+    {
+        "materialIndexID": 5,
+        "ObjectGroup": "Nature",
+        "objectStrList": [
+            "Leaves",
+            "Branches",
+           0
+        ],
+        "NodeSockerColorRGBA": [
+            0.501960784,
+            0.250980392,
+            0.501960784,
+            1
+        ],
+        "cyclesDefaultMaskColorRGB": [
+            45589,
+            37027,
+            45589
+        ]
+    },
+    {
+        "materialIndexID": 6,
+        "ObjectGroup": "Weeds",
+        "objectStrList": [
+            "Weed"
+        ],
+        "NodeSockerColorRGBA": [
+            0.901960784,
+            0.250980392,
+            0.701960784,
+            1
+        ],
+        "cyclesDefaultMaskColorRGB": [
+            51912,
+            37027,
+            49346
+        ]
+    },
+    {
+        "materialIndexID": 7,
+        "ObjectGroup": "Clover",
+        "objectStrList": [
+            "Clover",
+            "red_clover",
+            "white_clover"
+        ],
+        "NodeSockerColorRGBA": [
+            0.201960784,
+            0.650980392,
+            0.201960784,
+            1
+        ],
+        "cyclesDefaultMaskColorRGB": [
+            34249,
+            48531,
+            34249
+        ]
+    },
+    {
+        "materialIndexID": 8,
+        "ObjectGroup": "Boundary",
+        "objectStrList": [
+            "Marking",
+            "Asphalt",
+            "Gravel",
+            "Curb",
+            "Verge"
+        ],
+        "NodeSockerColorRGBA": [
+            0.401960784,
+            0.350980392,
+            0.81960784,
+            1
+        ],
+        "cyclesDefaultMaskColorRGB": [
+            42934,
+            41263,
+            50959
+        ]
+    },
+    {
+        "materialIndexID": 9,
+        "ObjectGroup": "Rubish",
+        "objectStrList": [
+            "Rubish",
+            "Gab_Material",
+            "Bottles"
+        ],
+        "NodeSockerColorRGBA": [
+            0.5,
+            0.270588235,
+            0,
+            1
+        ],
+        "cyclesDefaultMaskColorRGB": [
+            45544,
+            37985,
+            1
+        ]
+    },
+    {
+        "materialIndexID": 10,
+        "ObjectGroup": "Person",
+        "objectStrList": [
+            "Person",
+            "cloathes",
+            "shoe"
+        ],
+        "NodeSockerColorRGBA": [
+            0.2,
+            0.270588235,
+            0,
+            1
+        ],
+        "cyclesDefaultMaskColorRGB": [
+            34124,
+            37985,
+            1
+        ]
+    },
+    {
+        "materialIndexID": 11,
+        "ObjectGroup": "Ego",
+        "objectStrList": [
+            "Ego"
+        ],
+        "NodeSockerColorRGBA": [
+            0.062736,
+            0.8,
+            0.777145,
+            1
+        ],
+        "cyclesDefaultMaskColorRGB": [
+            20200,
+            50712,
+            50414
+        ]
+    },
+    {
+        "materialIndexID": 12,
+        "ObjectGroup": "Animal",
+        "objectStrList": [
+            "Animal",
+            "rabbit",
+            "dog"
+        ],
+        "NodeSockerColorRGBA": [
+            0.8,
+            0.679211,
+            0,
+            1
+        ],
+        "cyclesDefaultMaskColorRGB": [
+            50712,
+            48992,
+            1
+        ]
+    },
+    {
+        "materialIndexID": 13,
+        "ObjectGroup": "Fence",
+        "objectStrList": [
+            "Fence",
+            "Wall",
+            "Shrub",
+            "Tree"
+        ],
+        "NodeSockerColorRGBA": [
+            0.06,
+            0.04,
+            0.24,
+            1
+        ],
+        "cyclesDefaultMaskColorRGB": [
+            19734,
+            15805,
+            36455
+        ]
+    },
+    {
+        "materialIndexID": 14,
+        "ObjectGroup": "Bunker",
+        "objectStrList": [
+            "Bunker",
+            "Sand"
+        ],
+        "NodeSockerColorRGBA": [
+            1,
+            0.5,
+            0.18,
+            1
+        ],
+        "cyclesDefaultMaskColorRGB": [
+            52902,
+            45544,
+            32781
+        ]
+    },
+    {
+        "materialIndexID": 15,
+        "ObjectGroup": "Damage",
+        "objectStrList": [
+            "Damage",
+            "divots"
+        ],
+        "NodeSockerColorRGBA": [
+            0.252943,
+            0.106281,
+            0.064965,
+            1
+        ],
+        "cyclesDefaultMaskColorRGB": [
+            37126,
+            26176,
+            20570
+        ]
+    }
+]

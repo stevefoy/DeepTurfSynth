@@ -1,0 +1,85 @@
+{
+    "name": "FCN8_Greenway_awb",
+    "n_gpu": 1,
+    "use_synch_bn": false,
+
+    "arch": {
+        "type": "FCN8",
+        "args": {
+            "backbone": "",
+            "freeze_bn": false,
+            "freeze_backbone": false
+        }
+    },
+
+    "train_loader": {
+        "type": "SyntheticGrass",
+        "args":{
+            "data_dir": "../datasets/Greenway/image_patches_awb",
+            "batch_size": 15,
+            "mode": "fine",
+            "map_label": true,
+            "base_size": 400,
+            "crop_size": 400,
+            "augment": true,
+            "shuffle": true,
+            "scale": true,
+            "flip": false,
+            "rotate": false,
+            "blur": true,
+            "split": "train",
+            "num_workers": 4
+        }
+    },
+    "val_loader": {
+        "type": "TurfGrass",
+        "args":{
+            "data_dir": "../datasets/Turfgrass/image_patches",
+            "batch_size": 1,
+            "mode": "fine",
+            "map_label": true,
+            "base_size":400,
+            "augment": true,
+            "scale": false,
+            "crop_size": 400,
+            "val": true,
+            "split": "val",
+            "num_workers": 4
+        }
+    },
+
+    "optimizer": {
+        "type": "Adam",
+        "differential_lr": true,
+        "args":{
+            "lr": 0.0001
+        }
+    },
+
+    "loss": "CrossEntropyLoss2d",
+    "ignore_index": 255,
+    "weight":  [1.5, 9.5],
+    "lr_scheduler": {
+        "type": "Poly",
+        "args": {}
+    },
+
+    "trainer": {
+        "epochs": 25,
+        "save_dir": "saved/",
+        "save_period": 1,
+  
+        "monitor": "max Mean_IoU",
+        "early_stop": 10,
+        
+        "tensorboard": true,
+        "log_dir": "saved/runs",
+        "log_per_iter": 20,
+
+        "val": true,
+        "val_per_epochs": 1
+    }
+
+
+    
+}

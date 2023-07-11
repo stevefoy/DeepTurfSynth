@@ -1,0 +1,6 @@
+name                     id    trainId   category            catId   hasInstances   ignoreInEval   color
+--------------------------------------------------------------------------------------------------------------------
+unlabeled',               0 ,      0 , 'ground'            , 0       , True         , True         , (  0,  0,  0) ),
+weed1'                 ,  1 ,      1 , 'weed1'             , 1       , True         , True         , (  125,  0,  0) ),
+weed2'                 ,  2 ,      2 , 'weed2'             , 2       , True         , True         , (  0,  125,  0) ),
+weed3'                 ,  3 ,      3 , 'weed3'             , 3       , True         , True         , (  0,  0,  125) ),
