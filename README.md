@@ -16,7 +16,7 @@ PyTorch test implementation for our [paper](https://arxiv.org/).  If you find th
   - [Code structure](#code-structure)
   - [Config file format](#config-file-format)
   - [Acknowledgement](#acknowledgement)
-  - [Cite][#Cite]
+  - [Cite](#cite)
 
 <!-- /TOC -->
 
