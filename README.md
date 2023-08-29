@@ -148,13 +148,13 @@ The code structure is based on [pytorch-template](https://github.com/victoresque
 - [Synchronized-BatchNorm-PyTorch](https://github.com/vacancy/Synchronized-BatchNorm-PyTorch)
 
 ## Cite
-
+```
  @inproceedings{IMVIP2023,
    author = {Stephen Foy and Simon Mc Loughlin},
    title = {Assessment of Synthetic Turfgrass Dataset Generation for Divot Detection},
-   booktitle  = { Irish Machine Vision and Image Processing Conference (IMVIP)},
+   booktitle = { Irish Machine Vision and Image Processing Conference (IMVIP)},
    year = {2023}
   }
-
+```
 
 
