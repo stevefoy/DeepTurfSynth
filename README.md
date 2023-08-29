@@ -16,7 +16,7 @@ PyTorch test implementation for our [paper](https://arxiv.org/).  If you find th
   - [Code structure](#code-structure)
   - [Config file format](#config-file-format)
   - [Acknowledgement](#acknowledgement)
-  - [Cite]
+  - [Cite][#Cite]
 
 <!-- /TOC -->
 
@@ -65,8 +65,8 @@ Various datasets, each has it own dataloader code.
 - **CityScapes:** First download the images and the annotations (there is two types of annotations, Fine `gtFine_trainvaltest.zip` and Coarse `gtCoarse.zip` annotations, and the images `leftImg8bit_trainvaltest.zip`) from the official website [cityscapes-dataset.com](https://www.cityscapes-dataset.com/downloads/), extract all of them in the same folder, and use the location of this folder in `config.json` for training.
 - **Sugar beet:**
 - **Clover Weed:**
-- **Our Synthetic Turfgrass** https://www.zenodo.org/record/8030582
-- **Our real Trufgrass**
+- **Our Synthetic Turfgrass dataset** https://www.zenodo.org/record/8030582
+- **Our real Trufgrass: Release TBC**
 
 ## Train and Test
 To Train the network use the following, note the configs folder contains all the configuration used.
