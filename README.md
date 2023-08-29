@@ -149,12 +149,12 @@ The code structure is based on [pytorch-template](https://github.com/victoresque
 
 ## Cite
 
-    @inproceedings{IMVIP2023,
-  Author = {Stephen Foy and Simon Mc Loughlin},
-  Title = {Assessment of Synthetic Turfgrass Dataset Generation for Divot Detection},
-  Booktitle  = { Irish Machine Vision and Image Processing Conference (IMVIP)},
-  Year = {2023}
-    }
+ @inproceedings{IMVIP2023,
+   author = {Stephen Foy and Simon Mc Loughlin},
+   title = {Assessment of Synthetic Turfgrass Dataset Generation for Divot Detection},
+   booktitle  = { Irish Machine Vision and Image Processing Conference (IMVIP)},
+   year = {2023}
+  }
 
 
 
