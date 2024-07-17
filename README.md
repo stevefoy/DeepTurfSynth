@@ -4,7 +4,8 @@
 
 <img src="./sample_images/front.png" name="RGB">
 
-PyTorch test implementation for our [paper](https://arxiv.org/).  If you find this code useful in your research, please consider citing
+PyTorch implementation for our paper titled: Assessment of Synthetic Turfgrass Dataset Generation for Divot Detection.
+If you find this code useful in your research, please consider citing
 
 <!-- TOC -->
 
@@ -149,12 +150,17 @@ The code structure is based on [pytorch-template](https://github.com/victoresque
 
 ## Cite
 ```
- @inproceedings{IMVIP2023,
-   author = {Stephen Foy and Simon Mc Loughlin},
-   title = {Assessment of Synthetic Turfgrass Dataset Generation for Divot Detection},
-   booktitle = { Irish Machine Vision and Image Processing Conference (IMVIP)},
-   year = {2023}
-  }
+@inproceedings{IMVIP2023,
+    author = {Stephen Foy and Simon McLoughlin},
+    title = {Assessment of Synthetic Turfgrass Dataset Generation for Divot Detection},
+    booktitle = {Irish Machine Vision and Image Processing Conference Proceedings 2023},
+    editor = {Peter Corcoran},
+    year = {2023},
+    address = {Galway, Ireland},
+    publisher = {Irish Pattern Recognition and Classification Society},
+    isbn = {978-0-9934207-8-8},
+    pages = {9-16},
+}
 ```
 
 
